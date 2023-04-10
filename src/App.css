@@ -4,7 +4,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0 auto;
-  background-color: #3A98B9;
+  background: linear-gradient(#fff,#0584ce);
 }
 
 
@@ -34,3 +34,13 @@ body {
 
   box-shadow: 0 6px #999;
 }
+form {
+  background-color: #cccccc;
+  padding: 55px;
+  margin: 55px;
+  border-radius: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;}
+

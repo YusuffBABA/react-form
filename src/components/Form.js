@@ -20,7 +20,7 @@ const Form = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-       <boddy>
+       <container>  <boddy>
         <div>
        <h1> <label htmlFor="name" >ISIM :  </label> </h1>
         <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} />
@@ -42,7 +42,7 @@ const Form = () => {
       <div>
         <h1> <label htmlFor="message">MESSAGE :  </label></h1>
         <textarea id="message" name="message" value={formData.message} onChange={handleChange} />
-      </div></boddy> <br></br>
+      </div></boddy> <br></br> </container>
     <button className='button'>GÖNDER</button>
     </form>
   );
